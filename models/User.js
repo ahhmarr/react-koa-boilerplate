@@ -1,4 +1,4 @@
-const mongoose = require("../app/db");
+const mongoose = require("../api/db");
 const bcrypt = require("bcrypt");
 const Schema = mongoose.Schema;
 const UserSchema = new Schema({

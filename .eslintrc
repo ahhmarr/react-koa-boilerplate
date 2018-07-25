@@ -1,9 +1,13 @@
 {
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "sourceType": "module"
   },
   "ecmaFeatures": {
-    "experimentalObjectRestSpread": true
+    "experimentalObjectRestSpread": true,
+    "modules": true,
+    "spread": true,
+    "restParams": true
   },
   "env": {
     "mocha": true,

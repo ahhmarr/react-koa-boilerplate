@@ -8,6 +8,6 @@ require("dotenv").config();
 app.use(BodyParser());
 app.use(logger());
 app.use(static(__dirname + "/public", {}));
-require("./app/routes")(app);
+require("./api/routes")(app);
 console.log(`App listenng @ http://127.0.0.1:${process.env.PORT || 3000}`);
 app.listen(process.env.PORT || 3000);

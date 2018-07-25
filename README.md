@@ -1,6 +1,6 @@
 # koa boilerplate
 
-A Simple koa Boiler plate app with JWT authentication.
+A Simple koa Boiler plate api with JWT authentication.
 
 it contains
 
@@ -18,13 +18,13 @@ it contains
 - run `cp env.example .env`
 - you can pass global variables in .env file
 - run `npm start`
-- app will be avalable on port 3000 or whatever port u have sepecfied in ur `.env` file
+- api will be avalable on port 3000 or whatever port u have sepecfied in ur `.env` file
 
 ### File Structure
 
-- new routes can be defined in `app/routes.js` files
+- new routes can be defined in `api/routes.js` files
 - protected routes can use `privateRouter` and public can use `publicRouter`
-- middleware can be declared in `app/middleware.js`
+- middleware can be declared in `api/middleware.js`
 
 ### pre baked routes
 

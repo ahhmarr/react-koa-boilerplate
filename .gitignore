@@ -1,3 +1,7 @@
 .env
 node_modules
 .vscode
+.cache
+public/app.*.js
+*.map
+public/index.html
